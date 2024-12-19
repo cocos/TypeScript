@@ -1,8 +1,8 @@
 {
-    "name": "typescript",
+    "name": "@mycocos/typescript",
     "author": "Microsoft Corp.",
     "homepage": "https://www.typescriptlang.org/",
-    "version": "4.9.5",
+    "version": "4.9.5-cocos.1",
     "license": "Apache-2.0",
     "description": "TypeScript is a language for application scale JavaScript development",
     "keywords": [
