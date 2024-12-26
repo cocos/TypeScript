@@ -84,7 +84,7 @@
         "gulp-sourcemaps": "latest",
         "merge2": "latest",
         "minimist": "latest",
-        "mkdirp": "latest",
+        "mkdirp": "^1.0.4",
         "mocha": "latest",
         "mocha-fivemat-progress-reporter": "latest",
         "ms": "^2.1.3",
