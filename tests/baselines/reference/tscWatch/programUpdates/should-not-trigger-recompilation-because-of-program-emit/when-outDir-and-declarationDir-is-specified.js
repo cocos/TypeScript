@@ -88,6 +88,7 @@ interface Array<T> { length: number; [n: number]: T; }
     // "preserveConstEnums": true,                       /* Disable erasing 'const enum' declarations in generated code. */
     "declarationDir": "decls",                           /* Specify the output directory for generated declaration files. */
     // "preserveValueImports": true,                     /* Preserve unused imported values in the JavaScript output that would otherwise be removed. */
+    // "skipBuiltinTransformers": true,                  /* Skip the builtin transformers. */
 
     /* Interop Constraints */
     // "isolatedModules": true,                          /* Ensure that each file can be safely transpiled without relying on other imports. */
