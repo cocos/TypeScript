@@ -1361,6 +1361,15 @@ namespace ts {
             type: "string",
             defaultValueDescription: undefined,
         },
+        {
+            name: "skipBuiltinTransformers",
+            type: "boolean",
+            affectsEmit: true,
+            affectsMultiFileEmitBuildInfo: true,
+            category: Diagnostics.Emit,
+            description: Diagnostics.Skip_the_builtin_transformers,
+            defaultValueDescription: false,
+        },
     ];
 
     /* @internal */
