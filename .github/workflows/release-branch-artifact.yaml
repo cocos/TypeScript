@@ -25,7 +25,7 @@ jobs:
         gulp LKG
         gulp clean
         npm pack ./
-        mv typescript-*.tgz typescript.tgz
+        mv cocos-typescript-*.tgz typescript.tgz
     - name: Upload built tarfile
       uses: actions/upload-artifact@v3
       with:
