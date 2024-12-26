@@ -6670,6 +6670,8 @@ namespace ts {
         /* @internal */ showConfig?: boolean;
         useDefineForClassFields?: boolean;
 
+        skipBuiltinTransformers?: boolean;
+
         [option: string]: CompilerOptionsValue | TsConfigSourceFile | undefined;
     }
 
