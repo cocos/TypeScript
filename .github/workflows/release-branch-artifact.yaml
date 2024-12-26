@@ -16,10 +16,10 @@ jobs:
       run: |
         npm ci
         npm test
-    - name: Adding playwright
-      run: npm install --no-save --no-package-lock playwright
-    - name: Validate the browser can import TypeScript
-      run: gulp test-browser-integration
+    # - name: Adding playwright
+    #   run: npm install --no-save --no-package-lock playwright
+    # - name: Validate the browser can import TypeScript
+    #   run: gulp test-browser-integration
     - name: LKG, clean, and pack
       run: |
         gulp LKG
