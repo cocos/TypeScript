@@ -31,6 +31,8 @@ jobs:
         check-latest: true
     - run:  npm ci
 
+    - run: cat node_modules/mkdirp/package.json | grep version
+
     - name: Tests
       run:  npm test
 
@@ -44,6 +46,8 @@ jobs:
         node-version: "*"
         check-latest: true
     - run:  npm ci
+
+    - run: cat node_modules/mkdirp/package.json | grep version
 
     - name: Linter
       run:  npm run lint
@@ -65,9 +69,7 @@ jobs:
     - name: Build local
       run: |
         gulp -v
-        npx gulp -v
         cat node_modules/mkdirp/package.json | grep version
-        npx gulp local
 
     - name: Validate the browser can import TypeScript
       run: npx gulp test-browser-integration
