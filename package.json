@@ -1,8 +1,8 @@
 {
-    "name": "typescript",
+    "name": "@cocos/typescript",
     "author": "Microsoft Corp.",
     "homepage": "https://www.typescriptlang.org/",
-    "version": "4.9.5",
+    "version": "4.9.5-cocos.2",
     "license": "Apache-2.0",
     "description": "TypeScript is a language for application scale JavaScript development",
     "keywords": [
@@ -84,7 +84,7 @@
         "gulp-sourcemaps": "latest",
         "merge2": "latest",
         "minimist": "latest",
-        "mkdirp": "latest",
+        "mkdirp": "^1.0.4",
         "mocha": "latest",
         "mocha-fivemat-progress-reporter": "latest",
         "ms": "^2.1.3",
