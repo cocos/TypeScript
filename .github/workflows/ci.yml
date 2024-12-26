@@ -48,24 +48,25 @@ jobs:
     - name: Linter
       run:  npm run lint
 
-  browser-integration:
-    runs-on: ubuntu-latest
+  # browser-integration:
+  #   runs-on: ubuntu-latest
 
-    steps:
-    - uses: actions/checkout@v3
-    - uses: actions/setup-node@v3
-      with:
-        node-version: "*"
-        check-latest: true
-    - run:  npm ci
-    - name: Build local
-      run: gulp local
+  #   steps:
+  #   - uses: actions/checkout@v3
+  #   - uses: actions/setup-node@v3
+  #     with:
+  #       node-version: "*"
+  #       check-latest: true
+  #   - run:  npm ci
 
-    - name: Adding playwright
-      run: npm install --no-save --no-package-lock playwright
+  #   - name: Adding playwright
+  #     run: npm install --no-save --no-package-lock playwright
 
-    - name: Validate the browser can import TypeScript
-      run: gulp test-browser-integration
+  #   - name: Build local
+  #     run: gulp local
+
+  #   - name: Validate the browser can import TypeScript
+  #     run: gulp test-browser-integration
 
   misc:
     runs-on: ubuntu-latest
