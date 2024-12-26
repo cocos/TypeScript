@@ -66,6 +66,7 @@ jobs:
       run: |
         gulp -v
         npx gulp -v
+        cat node_modules/mkdirp/package.json | grep version
         npx gulp local
 
     - name: Validate the browser can import TypeScript
