@@ -2,7 +2,7 @@
     "name": "@cocos/typescript",
     "author": "Microsoft Corp.",
     "homepage": "https://www.typescriptlang.org/",
-    "version": "4.9.5-cocos.3",
+    "version": "4.9.5-cocos.4",
     "license": "Apache-2.0",
     "description": "TypeScript is a language for application scale JavaScript development",
     "keywords": [
@@ -21,10 +21,6 @@
     },
     "main": "./lib/typescript.js",
     "typings": "./lib/typescript.d.ts",
-    "bin": {
-        "tsc": "./bin/tsc",
-        "tsserver": "./bin/tsserver"
-    },
     "engines": {
         "node": ">=4.2.0"
     },
